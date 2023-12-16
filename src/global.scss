@@ -24,3 +24,32 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+// .orgName{
+//     // color:  linear-gradient(to right,#6f9f25,#3e6e94) !important;
+//     --color: linear-gradient(to bottom right,#6f9f25 , #3e6e94) ;
+//     // color:  #6f9f25 !important;
+//     // #6f9f25
+//     // #3e6e94
+// }
+
+.text-align-center{
+    text-align: center;
+}
+
+.gred-color{
+    background: linear-gradient(to right,#6f9f25 0% 0%, #1c364b 100% 100%);
+    -webkit-background-clip: text; // For Safari
+    color: transparent; // Make the text transparent to reveal the gradient background
+}
+.tiranga-color{
+    background: linear-gradient(to right bottom,#FF671F, #FFFFFF, #046A38);
+    // -webkit-background-clip: text; // For Safari
+    color: transparent; // Make the text transparent to reveal the gradient background
+}
+
+.pagemargin{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #6f9f25 solid 3px;
+}

@@ -1,0 +1,26 @@
+.headerName{
+    align-self: center;
+    // margin-top: 10px;
+}
+.headerLogo{
+    text-align: center;
+}
+.orgName{
+    // color:  linear-gradient(to right,#6f9f25,#3e6e94) !important;
+    // --color: linear-gradient(to bottom right,#6f9f25 , #3e6e94) ;
+    // color:  #6f9f25 !important;
+    // #6f9f25
+    // #3e6e94
+text-align: start;
+    background: linear-gradient(to right,#6f9f25 10% 10%, #1c364b 100% 100%);
+      -webkit-background-clip: text; // For Safari
+      color: transparent; // Make the text transparent to reveal the gradient background
+}
+
+.red-color{
+    color: #a80b0b;
+}
+
+.nameeng{
+font-size: x-large;
+}
