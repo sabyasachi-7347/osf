@@ -30,9 +30,15 @@ h3{
 }
 
 .contactus{
-    background: linear-gradient(to right,#6f9f25 10% 10%, #1c364b 100% 100%);
+    background: linear-gradient(to right,#33a211 10% 10%, #24730c 100% 100%);
     color: #ffffff;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     text-align: center;
+    margin-top:20px;
+    padding: 10px;
+}
+
+.contactusText{
+    text-align: left;
 }
