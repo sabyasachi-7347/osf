@@ -11,8 +11,9 @@
     // color:  #6f9f25 !important;
     // #6f9f25
     // #3e6e94
-text-align: start;
-    background: linear-gradient(to right,#8fe70b 0% 0%, #167acc 100% 100%);
+text-align: center;
+letter-spacing: 14px;
+    background: linear-gradient(to right,#8fe70b 0% 0%, #268de0 100% 100%);
       -webkit-background-clip: text; // For Safari
       color: transparent; // Make the text transparent to reveal the gradient background
 }
@@ -22,8 +23,12 @@ text-align: start;
 }
 
 .nameeng{
-font-size: x-large;
+font-size: xx-large;
 }
+
+.regNo{
+    font-size: x-large;
+    }
 
 h3{
     text-align: center;
@@ -47,3 +52,7 @@ h3{
     float: right;
 }
 
+// .position-bottom{
+//     position: relative;
+//     top: 75%;
+// }
