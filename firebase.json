@@ -11,6 +11,15 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+      "redirects": [
+        {
+          "source": "https://odiasevafoundation-d5a34.web.app/",
+          "destination": "https://odiasevafoundation.com/",
+          "type": 301
+        }
+      ]
+      
+    
   }
 }

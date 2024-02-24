@@ -13,9 +13,9 @@
     // #3e6e94
 text-align: center;
 // letter-spacing: 14px;
-    background: linear-gradient(to right,#95ca46 0% 0%, #127dac 100% 100%);
-      -webkit-background-clip: text; // For Safari
-      color: transparent; // Make the text transparent to reveal the gradient background
+//     background: linear-gradient(to right,#95ca46 0% 0%, #127dac 100% 100%);
+//       -webkit-background-clip: text; // For Safari
+//       color: transparent; // Make the text transparent to reveal the gradient background
 }
 
 .red-color{
@@ -61,4 +61,83 @@ h3{
 .headerLogoRight{
     float: right;
     text-align: center;
+}
+
+
+
+ion-label.orgName{
+    font-size: 60px; /* Larger initial font size */
+
+  @media (max-width: 768px) {
+    font-size: 35px; /* Adjust font size for smaller screens */
+  }
+
+  @media (max-width: 575px) {
+    font-size: 30px; /* Further adjustment for even smaller screens */
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 50px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 1024px) {
+    font-size: 45px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 900px) {
+    font-size: 45px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 600px) {
+    font-size: 45px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 480px) {
+    font-size: 30px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 320px) {
+    font-size: 30px; /* Further adjustment for even smaller screens */
+  }
+}
+  ion-label.logo-img-header{
+    font-size: 40px; /* Larger initial font size */
+
+  
+
+  @media (max-width: 1200px) {
+    font-size: 40px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 1024px) {
+    font-size: 40px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 900px) {
+    font-size: 40px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 900px) {
+    font-size: 35px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 768px) {
+    font-size: 35px; /* Adjust font size for smaller screens */
+  }
+  @media (max-width: 600px) {
+    font-size: 30px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 575px) {
+    font-size: 20px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 480px) {
+    font-size: 12px; /* Further adjustment for even smaller screens */
+  }
+  @media (max-width: 320px) {
+    font-size: 12px; /* Further adjustment for even smaller screens */
+  }
+ 
+
+//     320px
+// 480px
+// 600px
+// 768px
+// 900px
+// 1024px
+// 1200px
+}
+
+.header-row{
+  // overflow-y: scroll;
 }
